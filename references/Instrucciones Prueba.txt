@@ -1,0 +1,25 @@
+
+Tiene un archivo .xlsx que contiene dos tablas. La primera corresponde a una base de facturación y la segunda una maestra de producto.
+
+	En la base de facturación se tiene los datos de Cliente - Territorio, Bodega, SKU, Fecha de Pedido, Fecha de entrega y Cantidad Facturada.
+
+	En la maestra de producto tiene datos de cada SKU con su respectiva familia y precio.
+
+1.	Desarrolle en Python una tabla que contenga las siguientes columnas
+•	ID_Cliente
+•	ID_Territorio
+•	ID_Bodega
+•	ID_SKU
+•	Familia_SKU
+•	Cantidad_Facturada
+•	Monto_Facturado $
+•	Fecha_Pedido
+•	Fecha_Entrega
+
+2.	En Power BI, realice un reporte que le permita realizar los siguientes análisis:
+•	Análisis YTG (Year to date) de las ventas por Territorio y familias SKU.
+•	Realizar análisis de Tipo Pareto de Clientes y SKU de la venta en $.
+•	Explicar cómo se comporta la venta a lo largo del tiempo.
+•	¿Existe relación entre la cantidad de producto por entregar y los días de demora de entrega?
+
+3.	Realice un informe ejecutivo de máximo 2 hojas en dónde comente los principales hallazgos en cada punto anterior.
