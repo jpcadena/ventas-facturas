@@ -57,13 +57,15 @@
 
 <!-- ABOUT THE PROJECT -->
 
+## About the project
 
-IN PROGRESS...
-[![Project][project-screenshot]]
+![Project][project-screenshot]
 
-This project is about Ventas facturas...
+This project is about Product sales with receipts...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Built with
 
 * [![Python][Python.org]][Python-url]
 
@@ -73,8 +75,13 @@ This project is about Ventas facturas...
 
 <!-- GETTING STARTED -->
 
+## Getting started
+
+### Prerequisites
+
 * [Python 3.10+][Python-docs-url]
 
+### Installation
 
 1. Clone the **repository**
     ```
@@ -107,6 +114,8 @@ This project is about Ventas facturas...
 
 <!-- USAGE EXAMPLES -->
 
+### Usage
+
 1. If found **sample.env**, rename it to **.env**.
 2. Replace your **credentials** into the *.env* file.
 3. Execute with console
@@ -120,6 +129,7 @@ This project is about Ventas facturas...
 
 <!-- CONTRIBUTING -->
 
+## Contributing
 
 If you have a suggestion that would make this better, please fork the repo and
 create a pull request.
@@ -148,6 +158,7 @@ autocompletion: [Tabnine](https://www.tabnine.com/install)
 
 <!-- LICENSE -->
 
+## License
 
 Distributed under the MIT License.
 
@@ -157,6 +168,7 @@ Distributed under the MIT License.
 
 <!-- CONTACT -->
 
+## Contact
 
 LinkedIn: [Juan Pablo Cadena Aguilar][linkedin-url]
 
