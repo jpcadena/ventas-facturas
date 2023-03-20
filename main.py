@@ -22,9 +22,6 @@ def main() -> None:
     """
     logger.info("Running main method")
     dataframe: pd.Dataframe = extract_raw_data()
-    print("MAIN")
-    print(dataframe.columns)
-    print(dataframe.head)
     dataframe = feature_engineering(dataframe)
     dataframe = filter_desired_columns(dataframe)
     dataframe = numerical_eda(dataframe)

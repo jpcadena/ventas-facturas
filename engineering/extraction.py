@@ -53,9 +53,7 @@ def extract_raw_data(
         converter=converter)
     df_sales = find_missing_values(df_sales)
     df_products = find_missing_values(df_products)
+    # Fixme: Merge created NaN
     dataframe = df_sales.merge(
         df_products, left_on='SKU', right_on='Producto', how='left')
-    print("dataframe")
-    print(dataframe.columns)
-    print(dataframe.head)
     return dataframe
